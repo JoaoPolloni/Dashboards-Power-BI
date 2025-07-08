@@ -1,0 +1,36 @@
+﻿Orientações para o Teste de Power BI - Tempo máximo para realização = 2 horas.
+
+Dados: Existem 3 bases IDH_1991.xls / 2000 e 2010. E uma base Calendário_PowerBi.xlsx
+As bases já estão importadas dentro do Dashboard IDH.pbix
+
+A tarefa consiste em desenvolver no power bi um dashboard com as 3 bases importadas e tratadas
+dentro da ferramenta power bi (power query).
+
+Premissas:
+
+*Utilizar algum método para juntar os dados em uma unica tabela.
+*Relacionar a base Calendário_PowerBi com a base IDH.
+*O Dashboard precisa ter filtro por Ano (DATA), Estado e Município
+*Utilizar mais de uma página, montar estrutura de navegação por menus (botões).
+*São necessárias criação de medidas com fórmulas DAX: 
+-População Total
+-Média renda per capita
+-Quantidade de cidades com população maior que a média da população do estado.
+-Soma da população das cidades de Maringá, Sarandi e Marialva (utilizando dax)
+
+*Gráficos necessários
+-Ranking das 10 cidades com maior renda per capita e Ranking das 10 cidades com pior renda per capita
+-Comparativo de renda per capita x % pobreza
+-População masculina x feminina por cidade
+
+*Indicadores necessários além dos solicitados acima:
+-IDHM TT
+-IDHM Educação
+-IDHM Longevidade
+-IDHM Renda
+
+Após terminar os itens obrigatórios, caso sobrar tempo, é livre para melhorar o visual do dashboard.
+Acrescentar mais comparativos ou medidas demonstrando seu conhecimento na plataforma.
+Dica: Quanto mais funções DAX utilizar melhor sua classificação no teste.
+
+
